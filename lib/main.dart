@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homework2/screens/home_screen.dart';
+import 'package:homework2/screens/sliver_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const SliverListScreen(),
+      //home: const CardScreen(),
+      // home: const HomeScreen(),
     );
   }
 }
